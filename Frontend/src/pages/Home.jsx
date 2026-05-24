@@ -57,7 +57,7 @@ function Home() {
 
       <div className="stats-grid">
         <div className="stat-card">
-          <div className="stat-icon">⚡</div>
+          <div className="stat-icon"></div>
           <div className="stat-content">
             <div className="stat-label">Today's Prediction</div>
             <div className="stat-value">
@@ -67,7 +67,7 @@ function Home() {
         </div>
         
         <div className="stat-card">
-          <div className="stat-icon">📊</div>
+          <div className="stat-icon"></div>
           <div className="stat-content">
             <div className="stat-label">This Month</div>
             <div className="stat-value">
@@ -77,7 +77,7 @@ function Home() {
         </div>
         
         <div className="stat-card">
-          <div className="stat-icon">💰</div>
+          <div className="stat-icon"></div>
           <div className="stat-content">
             <div className="stat-label">Avg Cost/Day</div>
             <div className="stat-value">
@@ -87,7 +87,7 @@ function Home() {
         </div>
         
         <div className="stat-card">
-          <div className="stat-icon">💡</div>
+          <div className="stat-icon"></div>
           <div className="stat-content">
             <div className="stat-label">Usage Category</div>
             <div className="stat-value">
@@ -116,13 +116,13 @@ function Home() {
 
       <div className="action-buttons">
         <button onClick={() => navigate('/daily-forecast')} className="action-btn">
-          📅 View Daily Forecast
+          View Daily Forecast
         </button>
         <button onClick={() => navigate('/compare')} className="action-btn">
-          ⚖️ Compare Scenarios
+          Compare Scenarios
         </button>
         <button onClick={() => navigate('/history')} className="action-btn">
-          📜 View History
+          View History
         </button>
       </div>
     </div>

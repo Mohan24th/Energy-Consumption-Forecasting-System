@@ -142,7 +142,7 @@ function Compare() {
         </div>
 
         <button type="submit" disabled={loading1 || loading2} className="compare-btn">
-          {loading1 || loading2 ? 'Comparing...' : '⚖️ Compare Scenarios'}
+          {loading1 || loading2 ? 'Comparing...' : 'Compare Scenarios'}
         </button>
       </form>
 
@@ -151,7 +151,7 @@ function Compare() {
       {comparison && !loading1 && !loading2 && (
         <div className="comparison-results">
           <div className="winner-banner">
-            🏆 Winner: {comparison.winner} is more efficient!
+            Winner: {comparison.winner} is more efficient!
           </div>
 
           <div className="comparison-grid">
@@ -217,7 +217,7 @@ function Compare() {
           </div>
 
           <div className="recommendation-card">
-            <strong>💡 Recommendation</strong>
+            <strong>Recommendation</strong>
             <p>{comparison.message}. Choose {comparison.winner} for optimal savings.</p>
           </div>
         </div>

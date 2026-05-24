@@ -7,19 +7,19 @@ function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { path: '/', label: 'Home', icon: '🏠' },
-    { path: '/predict', label: 'Predict', icon: '🔮' },
-    { path: '/daily-forecast', label: 'Daily', icon: '📅' },
-    { path: '/compare', label: 'Compare', icon: '⚖️' },
-    { path: '/history', label: 'History', icon: '📜' },
-    { path: '/about', label: 'About', icon: 'ℹ️' }
+    { path: '/', label: 'Home', icon: '' },
+    { path: '/predict', label: 'Predict', icon: '' },
+    { path: '/daily-forecast', label: 'Daily Forecast', icon: '' },
+    { path: '/compare', label: 'Compare', icon: '' },
+    { path: '/history', label: 'History', icon: '' },
+    { path: '/about', label: 'About', icon: '' }
   ];
 
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <span className="logo-icon">⚡</span>
+          <span className="logo-icon"></span>
           <span className="logo-text">Energy Forecast</span>
         </Link>
 

@@ -57,7 +57,7 @@ function ResultCard({ prediction }) {
       </div>
 
       <div className="recommendation-box">
-        <strong>💡 Recommendation</strong>
+        <strong>Recommendation</strong>
         <p>{prediction.recommendation}</p>
       </div>
     </div>

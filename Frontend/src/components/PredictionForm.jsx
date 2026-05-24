@@ -15,8 +15,8 @@ function PredictionForm({ formData, onChange, onSubmit, isLoading }) {
           <div className="form-group">
             <label>Property Type</label>
             <select name="property_type" value={formData.property_type} onChange={handleInputChange}>
-              <option value="Home">🏠 Home</option>
-              <option value="Commercial">🏢 Commercial</option>
+              <option value="Home">Home</option>
+              <option value="Commercial">Commercial</option>
             </select>
           </div>
 
@@ -49,18 +49,18 @@ function PredictionForm({ formData, onChange, onSubmit, isLoading }) {
           <div className="form-group">
             <label>AC Usage</label>
             <select name="ac_usage" value={formData.ac_usage} onChange={handleInputChange}>
-              <option value="Low">❄️ Low</option>
-              <option value="Medium">🌡️ Medium</option>
-              <option value="High">🔥 High</option>
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
             </select>
           </div>
 
           <div className="form-group">
             <label>Lighting Usage</label>
             <select name="lighting_usage" value={formData.lighting_usage} onChange={handleInputChange}>
-              <option value="Low">💡 Low</option>
-              <option value="Medium">💡💡 Medium</option>
-              <option value="High">💡💡💡 High</option>
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
             </select>
           </div>
         </div>
@@ -72,9 +72,9 @@ function PredictionForm({ formData, onChange, onSubmit, isLoading }) {
           <div className="form-group">
             <label>Weather</label>
             <select name="weather_condition" value={formData.weather_condition} onChange={handleInputChange}>
-              <option value="Cool">❄️ Cool (22°C)</option>
-              <option value="Normal">🌤️ Normal (28°C)</option>
-              <option value="Hot">☀️ Hot (35°C)</option>
+              <option value="Cool">Cool (22°C)</option>
+              <option value="Normal">Normal (28°C)</option>
+              <option value="Hot">Hot (35°C)</option>
             </select>
           </div>
         </div>
@@ -144,7 +144,7 @@ function PredictionForm({ formData, onChange, onSubmit, isLoading }) {
       </div>
 
       <button type="submit" disabled={isLoading} className="predict-btn">
-        {isLoading ? 'Predicting...' : '🔮 Predict Energy Consumption'}
+        {isLoading ? 'Predicting...' : 'Predict Energy Consumption'}
       </button>
     </form>
   );

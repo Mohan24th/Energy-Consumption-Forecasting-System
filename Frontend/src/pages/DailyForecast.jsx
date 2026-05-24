@@ -170,7 +170,7 @@ function DailyForecast() {
           </div>
 
           <button type="submit" disabled={loading} className="generate-btn">
-            {loading ? 'Generating...' : '📊 Generate 24-Hour Forecast'}
+            {loading ? 'Generating...' : 'Generate 24-Hour Forecast'}
           </button>
         </form>
       </div>
@@ -183,7 +183,7 @@ function DailyForecast() {
         <div className="forecast-results">
           <div className="summary-cards">
             <div className="summary-card">
-              <div className="summary-icon">📊</div>
+              <div className="summary-icon"></div>
               <div className="summary-content">
                 <div className="summary-label">Daily Total</div>
                 <div className="summary-value">{forecast.daily_total_kwh} kWh</div>
@@ -191,7 +191,7 @@ function DailyForecast() {
             </div>
             
             <div className="summary-card">
-              <div className="summary-icon">💰</div>
+              <div className="summary-icon"></div>
               <div className="summary-content">
                 <div className="summary-label">Total Cost</div>
                 <div className="summary-value">₹{forecast.daily_total_cost_inr}</div>
@@ -200,7 +200,7 @@ function DailyForecast() {
             
             {peakHour && (
               <div className="summary-card">
-                <div className="summary-icon">🔺</div>
+                <div className="summary-icon"></div>
                 <div className="summary-content">
                   <div className="summary-label">Peak Hour</div>
                   <div className="summary-value">{peakHour.hour}:00 ({peakHour.consumption_kwh} kWh)</div>
@@ -210,7 +210,7 @@ function DailyForecast() {
             
             {lowestHour && (
               <div className="summary-card">
-                <div className="summary-icon">🔻</div>
+                <div className="summary-icon"></div>
                 <div className="summary-content">
                   <div className="summary-label">Lowest Hour</div>
                   <div className="summary-value">{lowestHour.hour}:00 ({lowestHour.consumption_kwh} kWh)</div>

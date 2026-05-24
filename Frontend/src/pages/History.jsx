@@ -111,7 +111,7 @@ function History() {
 
       {filteredHistory.length === 0 ? (
         <div className="empty-state">
-          <div className="empty-icon">📭</div>
+          <div className="empty-icon"></div>
           <p>No predictions yet. Make your first prediction!</p>
         </div>
       ) : (

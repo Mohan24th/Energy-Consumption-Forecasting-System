@@ -30,7 +30,7 @@ function About() {
 
       <div className="about-grid">
         <div className="about-card">
-          <h3>🎯 How It Works</h3>
+          <h3>How It Works</h3>
           <p>Our system uses machine learning to predict energy consumption based on multiple factors:</p>
           <ul>
             <li>Building characteristics (size, type, occupancy)</li>
@@ -41,7 +41,7 @@ function About() {
         </div>
 
         <div className="about-card">
-          <h3>🤖 Model Details</h3>
+          <h3>Model Details</h3>
           {loading ? (
             <p>Loading model information...</p>
           ) : modelInfo ? (
@@ -56,7 +56,7 @@ function About() {
         </div>
 
         <div className="about-card">
-          <h3>💰 Pricing Information</h3>
+          <h3>Pricing Information</h3>
           <p>Electricity rates used for cost calculations:</p>
           <ul>
             <li><strong>Domestic (Home):</strong> ₹6.5 per kWh</li>
@@ -66,7 +66,7 @@ function About() {
         </div>
 
         <div className="about-card">
-          <h3>💡 Tips for Best Results</h3>
+          <h3>Tips for Best Results</h3>
           <ul>
             <li>Select the correct property size for your building</li>
             <li>Be honest about AC and lighting usage patterns</li>
@@ -76,7 +76,7 @@ function About() {
         </div>
 
         <div className="about-card">
-          <h3>📊 Features Used</h3>
+          <h3>Features Used</h3>
           <div className="features-grid">
             <span className="feature-tag">Temperature</span>
             <span className="feature-tag">Humidity</span>
@@ -93,7 +93,7 @@ function About() {
         </div>
 
         <div className="about-card">
-          <h3>🔧 Tech Stack</h3>
+          <h3>Tech Stack</h3>
           <ul>
             <li><strong>Backend:</strong> FastAPI, Python, scikit-learn</li>
             <li><strong>Frontend:</strong> React, Axios, Recharts</li>

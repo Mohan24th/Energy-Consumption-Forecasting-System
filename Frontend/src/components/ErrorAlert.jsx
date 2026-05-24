@@ -4,7 +4,7 @@ import './ErrorAlert.css';
 function ErrorAlert({ message, onRetry }) {
   return (
     <div className="error-alert">
-      <span className="error-icon">⚠️</span>
+      <span className="error-icon"></span>
       <div className="error-content">
         <strong>Error:</strong> {message}
       </div>
