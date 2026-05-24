@@ -1,0 +1,33 @@
+.error-alert {
+  background: #ffebee;
+  color: #c62828;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid #c62828;
+}
+
+.error-icon {
+  font-size: 1.5rem;
+}
+
+.error-content {
+  flex: 1;
+}
+
+.retry-btn {
+  background: #c62828;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.retry-btn:hover {
+  background: #b71c1c;
+}

@@ -1,0 +1,64 @@
+.about-page {
+  animation: fadeIn 0.5s ease;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.about-card {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h3 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.about-card p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.about-card ul {
+  margin-left: 1.5rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.about-card li {
+  margin: 0.5rem 0;
+}
+
+.note {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.feature-tag {
+  background: #f0f0f0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
